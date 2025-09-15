@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import requests
 
-def pega_lista_de_pokemons():
+def pega_lista_de_pokemons():a
     url = "https://pokeapi.co/api/v2/generation/1"
     try:
         resposta = requests.get(url, timeout=5)
