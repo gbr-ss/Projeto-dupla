@@ -89,3 +89,4 @@ for chute_historico, reacao_historico, foto_historico in st.session_state.histor
         if foto_historico:
             st.image(foto_historico, width=50)
     st.markdown("---")
+a
