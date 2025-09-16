@@ -2,6 +2,11 @@ import streamlit as st
 import random
 import requests
 
+st.set_page_config(
+    page_title="Descubra o Pokemon",
+    page_icon="❓️"
+)
+
 def pega_lista_de_pokemons():
     url = "https://pokeapi.co/api/v2/generation/1"
     try:
