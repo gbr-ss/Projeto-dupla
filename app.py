@@ -72,6 +72,7 @@ if chute_do_player:
     if chute_do_player == st.session_state.pokemon_secreto:
         st.success(f"Aee! Na mosca, era **{st.session_state.pokemon_secreto.upper()}**")
         foto_final = pega_foto_do_pokemon(st.session_state.pokemon_secreto)
+        st.balloons()
         if foto_final:
             st.image(foto_final, width=150)
         if st.button("Jogar de novo"):
